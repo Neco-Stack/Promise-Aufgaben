@@ -1,13 +1,13 @@
 
 
 const exercise1: Promise<string> = new Promise((resolve) => {
-    setTimeout(() => resolve("Exercise 1 done"), 20000)
+    setTimeout(() => resolve("Exercise 1 done"), 2000)
 });
 const exercise2: Promise<string> = new Promise((resolve) => {
-    setTimeout(() => resolve("Exercise 2 done"), 30000)
+    setTimeout(() => resolve("Exercise 2 done"), 3000)
 });
 const exercise3: Promise<string> = new Promise((resolve) => {
-    setTimeout(() => resolve("Exercise 3 done"), 40000)
+    setTimeout(() => resolve("Exercise 3 done"), 4000)
 })
 const outputElement = document.getElementById("output") as HTMLParagraphElement;
 
